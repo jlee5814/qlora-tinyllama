@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.json
+
+# Training artifacts
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+training_args.bin
+
+# Output directory
+qlora-output/*
+!qlora-output/.gitkeep
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
